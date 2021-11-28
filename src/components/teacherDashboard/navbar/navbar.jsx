@@ -22,7 +22,6 @@ const NavBar = ({show,name})=>{
                 <Link style={{textDecoration:'none'}} to="/login-teacher/"><li >Home</li></Link>
                 <Link style={{textDecoration:'none'}} to="/login-teacher/explore"><li>Explore</li></Link>
                 <Link style={{textDecoration:'none'}} to="/login-teacher/assign"><li>Assign Work</li></Link>
-                <Link style={{textDecoration:'none'}} to="/login-teacher/check"><li>Check Work</li></Link>
                 <Link style={{textDecoration:'none'}} to="/login-teacher/contact"><li >About Us</li></Link>
             </div>
         </div>
