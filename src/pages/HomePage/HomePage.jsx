@@ -16,11 +16,7 @@ class HomePage extends Component {
 				<div className="content-main">
 					<Header onLogin={(route) => this.props.history.push(route)} />
 					<div className="content" id="homepage-flex">
-					<SimpleCard
-							image={plagiarism}
-							title='Plagiarism detection'
-							body='It instantly detects if a student has copied from internet or
-							 from other students. It clusterizes the copies looking similar ' />
+				
 						<SimpleCard
 							image={organise}
 							title='Stay Organised'
@@ -28,11 +24,17 @@ class HomePage extends Component {
 						<SimpleCard
 							image={assignment}
 							title='Assignment'
-							body='It allows professors to assign tasks to students and students can submit their answer sheets using EasyMonitor.' />
+							body='It allows professors to assign tasks to students and students can
+							 submit their answer sheets using EasyMonitor.' />
+							 	<SimpleCard
+							image={plagiarism}
+							title='Plagiarism detection'
+							body='It instantly detects if a student has copied from internet
+							 and gives the plagiarismm percentage ' />
 						<SimpleCard
 							image={performance}
 							title='Performance tracker'
-							body='It shows your subject-wise marks of each subject. You can have a track of your progress by looking at the Bar Graphs' />
+							body='It shows your assignment-wise marks of each subject. You can have a track of your progress by looking at the Bar Graphs' />
 					</div>
 					<AboutUs />
 				</div>
