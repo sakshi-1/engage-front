@@ -1,0 +1,36 @@
+.uploaded-myfiles{
+    background-color: white;
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-right: auto;
+    position: relative;
+    border: 10px solid rgba(114, 33, 115,0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 70vw;
+    box-shadow: 3px 7px 5px rgba(21, 7, 49,0.9);
+    transition: all 0.3s;
+}
+.uploaded-myfiles:hover{
+    transform: translate(0.5px,0.5px);
+    box-shadow: 1px 1px 3px rgba(21, 7, 49,0.9);
+}
+.upload-dwnld{
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    padding: 7px;
+    font-weight: 500;
+    width: 100px;
+    background-color: rgba(114, 33, 115,0.9);
+    transition: all 0.1s;
+}
+.upload-dwnld:hover{
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    font-weight: 500;
+    width: 100px;
+    background-color: rgba(114, 33, 115,0.9);
+}

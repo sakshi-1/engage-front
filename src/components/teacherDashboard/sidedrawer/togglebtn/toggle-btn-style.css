@@ -1,0 +1,27 @@
+.teacher-toggle-btn{
+    display:none;
+}
+@media only screen and (max-width:1000px){
+.teacher-toggle-btn{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    margin-top: 12px;
+    height:24px;
+    width:36px;
+    background: transparent;
+    border:none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+}
+.teacher-toggle-btn:focus{
+    outline:none;
+}
+
+.teacher-toggle-btn-line{
+    width:36px;
+    height:3px;
+    background: grey;
+}
+}

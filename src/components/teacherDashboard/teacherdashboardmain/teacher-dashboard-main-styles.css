@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Satisfy&display=swap');
+.teacher-main-body{
+    width:100%;
+    margin-top:62px;
+    margin-left: 5px;
+   
+}
+.teacher-main-title-text{
+    width:100%;
+    margin-left: calc(300px + 2rem);
+    font-size: 2.5rem;
+    color:rgb(185, 67, 67);
+    font-family:'Satisfy',cursive;
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.courses-cards{
+    padding: 1.5rem 0px;
+    width:100%;
+    margin-left:calc(300px + 2rem);
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+}
+.courses-title{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: purple;
+}
+.information-block{
+    width:100%;
+    margin-left:calc(300px + 2rem);
+    box-shadow: 0 2px 0 0 rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.information-block-title{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: purple;
+}
+
+.link-cards{
+    margin-top: 20px;
+    margin-left: calc(300px + 2rem);
+    display: flex;
+    width: calc(100vw - 300px);
+    justify-content: space-evenly;
+
+}
+
+
+
+@media only screen and (max-width:1000px){
+    .teacher-main-body{
+        max-width:1000px;
+        position:absolute;
+        left:0;
+        z-index:0;
+    }
+}

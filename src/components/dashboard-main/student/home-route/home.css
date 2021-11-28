@@ -1,0 +1,13 @@
+#student-home{
+	background-color: white;
+	width: calc(100vw - 38px);
+	margin-left: 10px;
+	margin-bottom: 50px;
+	border: 1px solid purple;
+	text-align: center;
+}
+@media only screen and (min-width: 1000px){
+	#student-home{
+		width: calc(100vw - 304px);
+	}
+}

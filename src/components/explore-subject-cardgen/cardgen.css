@@ -1,0 +1,13 @@
+.cards{
+    display: flex;
+    width: calc(100vw - 280px);
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+@media only screen and (max-width:1000px){
+    .cards{
+        width: 96vw;
+    }
+}

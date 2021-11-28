@@ -1,0 +1,13 @@
+.dropdown-control{
+    width:90%;
+    padding: 4px;
+    margin: 0px auto;
+    display:flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.dropdown-control{
+    list-style-type: none;
+    font-weight: 800;
+}

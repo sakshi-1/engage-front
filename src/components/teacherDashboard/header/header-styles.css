@@ -1,0 +1,48 @@
+.teacher-header-container{
+    width:100vw;
+    background: rgba(247,244,244,0.816);
+    box-shadow: 3px 2px rgba(0,0,0,0.1);
+   position:fixed;
+}
+.teacher-header{
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.teacher-logo{
+    width:100px;
+    height:50px;
+    margin:5px 0px;
+    display: flex;
+}
+.teacher-logo img{
+    width:50px;
+    height:50px;
+    margin-left: 5px;
+}
+.teacher-links p{
+    background: #cc0e34;
+    padding: 8px 1.5rem;
+    color: white;
+    font-weight: 600;
+    margin-top:12px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px rgba(0,0,0,0.1);
+    transition: 0.3s all;
+}
+.teacher-links p:hover{
+    box-shadow: 0px 0px rgba(0,0,0,0);
+}
+
+
+@media only screen and (max-width:1000px){
+    .teacher-logo{
+        margin-left:10px;
+    }
+    .teacher-logo img{
+        display:none;
+    }
+}

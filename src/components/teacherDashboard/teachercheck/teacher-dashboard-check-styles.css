@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Satisfy&display=swap');
+.teacher-check-body{
+    margin-top:62px;
+    margin-left: 5px;
+    height: 100vh;
+}
+.teacher-check-title-text{
+    margin-left: calc(300px + 2rem);
+    font-size: 2.5rem;
+    color:rgb(185, 67, 67);
+    font-family: 'Satsify', cursive;
+}
+.table{
+    margin:2rem 2rem 2rem calc(300px + 2rem);
+}
+.table table{
+    border:1px solid rgba(0,0,0,0.4);
+}
+tr:first-child{
+    width:150px;
+}
+th,td{
+    text-align:left;
+    padding:8px 0px;
+    border:1px solid rgba(0,0,0,0.1);
+}
+
+.first-head,.first{
+    width:150px;
+    
+}
+.second,.second-head{
+    width:300px;
+}
+.third,.third-head{
+    width:250px;
+}
+.fourth,.fourth-head,.fifth,.fifth-head{
+    width:200px;
+}
+.results{
+    margin-left:calc(300px + 2rem);
+    margin-top:2rem;
+}
+h2.check-result-text{
+    font-size: 24px;
+    font-weight: 600;
+    color:rgb(184, 34, 184);
+}
+button.check{
+    width:130px;
+    padding:6px 10px;
+    border:1px solid rgba(0,0,0,0.1);
+    outline:none;
+    cursor: pointer;
+    border-radius:4px;
+    background:#f1cef1;
+    color:#333;
+    
+}
+button.check-btn:hover{
+    box-shadow:none;
+}
+@media only screen and (max-width:1000px){
+    .teacher-check-body{
+        max-width:1000px;
+        position:fixed;
+        left:0;
+        z-index:0;
+    }
+}

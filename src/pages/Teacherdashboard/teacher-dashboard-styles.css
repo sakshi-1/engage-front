@@ -1,0 +1,9 @@
+.teacher-dashboard-main{
+    margin:0;
+    padding:0;
+    
+}
+.teacher-dashboard{
+    
+    display: flex;
+}

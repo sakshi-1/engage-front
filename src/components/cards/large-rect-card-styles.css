@@ -1,0 +1,22 @@
+.rect-card-body{
+    margin-top: 2rem;
+    width:750px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: #f9f9f9;
+}
+
+.rect-card-head-text{
+    padding: 0px 12px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.rect-card-head-text>h2{
+    font-weight: 500;
+    font-size: 32px;
+    color: #333;
+    font-family: 'Archivo', sans-serif;
+}
+.rect-sub-text{
+    padding: 20px 12px;
+    font-size: 24px;
+}

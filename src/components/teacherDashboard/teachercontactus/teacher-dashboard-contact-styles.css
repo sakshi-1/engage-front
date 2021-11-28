@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Satisfy&display=swap');
+.teacher-contact-body{
+    margin-top:62px;
+    margin-left: calc(300px + 2rem);
+}
+.teacher-contact-title-text{
+    margin-left: calc(300px + 2rem);
+    font-size: 2.5rem;
+    color:rgb(185, 67, 67);
+    font-family: 'Satisfy', cursive;
+}
+.contact-us-cards{
+    width:calc(100vw - 300px);
+    display:flex;
+    flex-direction:column;
+   
+}
+
+.row-2{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width:1000px){
+    .teacher-contact-body{
+        max-width:1000px;
+        position:fixed;
+        left:0;
+        z-index:0;
+    }
+}

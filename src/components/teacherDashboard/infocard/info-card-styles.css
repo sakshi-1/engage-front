@@ -1,0 +1,25 @@
+.info-list-container{
+    list-style-type:none;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 6px;
+    padding: 4px 6px;
+    width: 650px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+}
+
+li.list-item{
+    width:90%;
+    padding: 10px 12px;
+    border: 1px solid rgba(0,0,0,0.4);
+    border-left: 4px solid red;
+    margin: 12px 0px;
+    border-radius: 4px;
+    color: rgb(80, 5, 80);
+    font-weight:600;
+}
+li .color-pink{
+    position:relative;
+    top: 0;
+    color:rgb(214, 89, 110);
+    font-weight: 600;
+}

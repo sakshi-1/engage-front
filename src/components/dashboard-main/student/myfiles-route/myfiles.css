@@ -1,0 +1,104 @@
+.myfiles{
+    background-color: white;
+    margin-left: 90px;
+    margin-right: auto;
+    position: relative;
+    border: 15px solid rgba(114, 33, 115,0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 70vw;
+    box-shadow: 1px 2px 2px rgba(21, 7, 49,0.9);
+    transition: all 0.2s;
+}
+.myfiles:hover{
+    transform: translate(-0px,-0.5px);
+    box-shadow: 1px 2px 4px rgba(21, 7, 49,0.9);
+}
+.myfiles-overlay{
+    opacity: 0.2;
+    cursor: wait;
+}
+
+.upload-loader{
+    opacity: 0;
+}
+.upload-container{
+    position:relative;
+    padding: 0;
+    margin: 0;
+}
+.upload-p{
+   text-transform: uppercase;
+   font-weight: 700;
+}
+
+.upload-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+
+
+.upload-input::before{
+    border: 2px solid purple;
+    width: 92%;
+    content: 'Select a new file';
+    display: inline-block;
+    justify-content: center;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);    
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+}
+.upload-input:hover::before {
+    border-color: black;
+  }
+.upload-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+
+.upload-input-btn{
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.divider{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    display: block;
+    margin-right: auto;
+    position: relative;
+    border-bottom: 2px solid black;
+}
+.footer-space{
+    margin-top: 40px;
+}
+.message{
+    position: relative;
+    text-align: center;
+    top: 250px;
+    color: purple;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+}
+.myfile-course{
+    margin-left: 100px;
+    position: relative;
+    top: 100px;
+    margin-top: 200px;
+}

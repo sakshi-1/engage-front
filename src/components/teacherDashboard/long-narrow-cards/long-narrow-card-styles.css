@@ -1,0 +1,15 @@
+.long-narrow-card-body{
+    width:750px;
+    border:1px solid rgba(0,0,0,0.1);
+    border-left: 8px solid rgb(15, 178, 233);
+    display:flex;
+    margin: 4px 0px;
+    border-radius:12px;
+    cursor: pointer;
+}
+p.long-narrow-card-item{
+    padding:22px 12px;
+    text-align:left;
+    color:rgb(128, 0, 79);
+    font-weight:700;
+}

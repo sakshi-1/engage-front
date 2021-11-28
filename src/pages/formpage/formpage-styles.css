@@ -1,0 +1,27 @@
+.form-page{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    background-color:rgb(121, 97, 242);
+}
+.login-home-btn{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: large;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-left: auto;
+    color: white;
+    padding: 10px;
+    transition: all 0.1s;
+}
+.login-home-btn:hover{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    margin-top: 12px;
+    font-size: large;
+    margin-right: 0;
+    margin-left: auto;
+    color: white;
+}

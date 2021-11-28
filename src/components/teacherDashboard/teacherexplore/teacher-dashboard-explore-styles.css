@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.teacher-explore-body{
+    margin-top:62px;
+    margin-left: 5px;
+}
+.teacher-title-text{
+    margin-left: calc(300px + 2rem);
+    font-size: 2.5rem;
+    color:rgb(185, 67, 67);
+    font-family: 'Dancing Script', cursive;
+}
+.teacher-cards{
+    margin-left:calc(300px + 2rem);
+}
+
+@media only screen and (max-width:1000px){
+    .teacher-explore-body{
+        max-width:1000px;
+        position:absolute;
+        left:0;
+        z-index:0;
+    }
+}

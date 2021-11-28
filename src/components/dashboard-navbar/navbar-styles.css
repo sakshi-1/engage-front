@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital@1&display=swap');
+.navbar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    overflow: scroll;
+    background-image: linear-gradient(180deg, rgba(114, 33, 115,0.9), rgba(21, 7, 49,0.9));
+}
+/*To hide scroll bar*/
+.navbar::-webkit-scrollbar{
+    display: none;
+}
+.navbar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.logo-container{
+    margin: 80px 0 0 0;
+    width: 100%;
+    height: 270px;
+    border-bottom: 1px solid rgb(250, 211, 211);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.college-logo{
+    width: 180px;
+    height: 180px;
+    margin-top: 2rem;
+}
+.college-logo>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(21, 7, 49,0.5);
+}
+.name p{
+    color: #f1d4d4;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.nav-links{
+    width: 100%;
+    list-style-type: none;
+}
+.nav-links li{
+    color: white;
+    margin: 0px 10px;
+    padding: 16px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.nav-links li:hover{
+    transform: scale(1.1);
+    background-color: rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width:1000px){
+    .navbar{
+        width: 250px;
+        z-index: 1;
+        transform: translate(-100%);
+        transition: 0.3s transform ease-out;
+    }
+    .navbar.show{
+        position: fixed;
+        transform: translate(0);
+    }
+}
+
+.nav-icon{
+    filter: invert(1);
+    margin: 2px;
+}
+span{
+    position: relative;
+    top: -6px;
+    margin: 10px;
+    font-size: 18px;
+}

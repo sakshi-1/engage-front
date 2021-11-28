@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Satisfy&display=swap');
+.teacher-file-body{
+    margin-top:62px;
+    width: 100%;
+}
+.teacher-form-container{
+    margin: 30px 600px;
+    width: 450px;
+    border: 1px solid rgba(0,0,0,0.1);
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0 0px 30px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background: #f1f1f1;
+}
+.teacher-form-container .teacher-file-header{
+    padding:10px 8px;
+    text-align:center;
+    background:rgb(223, 17, 195);
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    border-radius: 12px 12px 0px 0px;
+    color:white;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Satisfy', cursive;
+}
+.teacher-myfile-form{
+    display:flex;
+    flex-direction: column;
+    padding:12px 8px;
+}
+.teacher-myfile-form label{
+    color: purple;
+    font-weight:bold;
+    font-size:20px;
+    font-family: 'Roboto',sans-serif;
+}
+.teacher-myfile-form input[type="text"]{
+    padding: 4px 6px;
+    border:none;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+    transition: 0.3s;
+    background:#f1f1f1;
+}
+.teacher-myfile-form input[type="text"]:focus{
+    outline:none;
+    border-bottom: 2px solid rgba(109, 6, 109, 0.664);
+
+}
+.teacher-myfile-form textarea{
+    padding: 12px 10px;
+    border:2px solid rgba(0,0,0,0.1);
+}
+.teacher-myfile-form textarea:focus{
+    outline:none;
+    border:2px solid rgba(109,6,109,0.664);
+}
+.teacher-file-btns{
+    width:80%;
+    margin:0 auto;
+    padding: 12px 8px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.teacher-file-btns input[type="submit"],.teacher-file-btns input[type="button"]{
+    width: 130px;
+    padding: 10px 16px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+.teacher-file-btns input[type="submit"]{
+    background:rgba(102, 3, 102, 0.774);
+    color: white;
+    font-weight: bold;
+    font-size:18px;
+    font-family:'Satisfy',cursive;
+    box-shadow: 0px 0px 10px 0px rgba(102, 3, 102, 0.774);
+    transition: 0.3s;
+}
+.teacher-file-btns input[type="button"]{
+    background:rgb(223, 17, 195);
+    color: white;
+    font-weight: bold;
+    font-size:18px;
+    font-family:'Satisfy',cursive;
+    box-shadow: 0px 0px 10px 0px rgba(223, 17, 195, 0.774);
+    transition: 0.3s;
+}
+.teacher-file-btns input[type="submit"]:hover,.teacher-file-btns input[type="button"]:hover{
+    box-shadow:none;
+}
+.teacher-file-course{
+    padding: 10px 12px;
+    cursor: pointer;
+    outline:none;
+    color: #333;
+    font-weight:bold;
+    border:none;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius:6px;
+    
+}
+@media only screen and (max-width:1000px){
+    .teacher-file-body{
+        max-width:1000px;
+        position:absolute;
+        left:0;
+        z-index:0;
+    }
+}

@@ -1,0 +1,9 @@
+Route=>
+1)home - information about the student
+2)explore - subject details (subject specific)
+	a)graph of progress (test1,test2,...,testn)
+	b)
+	c)
+	d)
+3)myfiles - upload and view files (subject specific)
+4)contactus - email and stuff about admin

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.teacher-navbar{
+    width: 300px;
+    background: purple;
+    position:fixed;
+    height:100vh;
+    top:62px;
+}    
+.teacher-profile{
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid rgb(250, 211, 211);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teacher-propic{
+    width: 150px;
+    height: 150px;
+    margin-top: 2rem;
+    background: lightpink;
+    border-radius:50%;
+}
+.teacher-propic>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.teacher-name{
+    margin-top: 20px;
+}
+.teacher-name p{
+    color: #f1d4d4;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.teacher-nav-links{
+    width: 100%;
+    list-style-type: none;
+}
+.teacher-nav-links li{
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom:20px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.teacher-nav-links li:hover{
+    box-shadow: 4px 4px rgba(0,0,0,0.1);
+    opacity: 0.8;
+}
+
+@media only screen and (max-width:1000px){
+    .teacher-navbar{
+        width: 300px;
+        height: 100vh;
+        background: purple;
+        z-index: 100;
+        transform: translate(-100%);
+        transition: 0.3s transform ease-out;
+    }
+    .teacher-navbar.show{
+        transform: translate(0);
+    }
+}
